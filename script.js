@@ -4,17 +4,11 @@ const button = document.getElementById("button");
 const input = document.getElementById("input");
 
 const bin2Dec = (value) => {
-  const arr = Array.from(value, Number);
-
   let total = 0;
-  let numbers = [];
 
-  for (let i = 0; i < arr.length; i++) {
-    const element = arr[i] * Math.pow(2, arr.length - i - 1);
-    numbers.push(element);
-  }
-  for (let i = 0; i < numbers.length; i++) {
-    total += numbers[i];
+  for (let i = 0; i < value.length; i++) {
+    const digit = Number(value[i]);
+    total += digit * 2 ** (value.length - i - 1);
   }
 
   return total;
