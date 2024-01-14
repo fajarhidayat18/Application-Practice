@@ -1,47 +1,176 @@
-# Bin2Dec
+## 👇 **Practice Daily on iCodeThis.com** 👇
 
-**Tier:** 1-Beginner
+# :ledger: App Ideas Collection
 
-Binary is the number system all digital computers are based on.
-Therefore it's important for developers to understand binary, or base 2,
-mathematics. The purpose of Bin2Dec is to provide practice and
-understanding of how binary calculations.
+Have you ever wanted to build something but didn't know what to do? Just as writers sometimes have “writer's block,” this also applies to developers. This list is intended to solve this problem once and for all!. I took all the ideas in this repo from the [florinpop17 / app-ideas](https://github.com/florinpop17/app-ideas) repo and for some reason I haven't changed many things from that repo and just worked on the ideas list, so thanks to [florinpop17](https://github.com/florinpop17). 👍
 
-Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
-and 1's, in any sequence and then displays its decimal equivalent.
+These applications are:
 
-This challenge requires that the developer implementing it follow these
-constraints:
+- great for improving your coding skills :muscle:;
+- great for experimenting with new technologies 🆕;
+- great for adding to your portfolio to impress your next employer/client :file_folder:;
+- great for using as examples in tutorials (articles or videos) :page_with_curl:;
+- easy to complete and also easily extendable with new features :ok_hand:;
 
-- Arrays may not be used to contain the binary digits entered by the user
-- Determining the decimal equivalent of a particular binary digit in the
-  sequence must be calculated using a single mathematical function, for
-  example the natural logarithm. It's up to you to figure out which function
-  to use.
+This is not just a simple list of projects, but a collection that describes each project in enough detail so that you can develop it from the ground up!
 
-## User Stories
+Each project has the following **features**:
 
-- [ ] User can enter up to 8 binary digits in one input field
-- [ ] User must be notified if anything other than a 0 or 1 was entered
-- [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+1. A clear and descriptive objective;
+2. A list of _User Stories_ which should be implemented (these stories act more as a guideline than a forced list of _To-Do's_. Feel free to add your own stories if you want);
+3. A list of bonus features that not only improve the base project, but also your skills at the same time (these are optional and should be attempted only after you have completed the required user stories)
+4. All the resources and links to help you find what you need to complete the project
 
-## Bonus features
+Here you can [watch a video about this repository](https://www.youtube.com/watch?v=TNzCfgwIDCY).
 
-- [ ] User can enter a variable number of binary digits
+## Projects
 
-## Useful links and resources
+Projects are divided into three tiers based on the knowledge and experience
+required to complete them.
 
-[Binary number system](https://en.wikipedia.org/wiki/Binary_number)
+| Tier | Developer Profile                                                                                                                                                |
+| :--: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1   | Developers in the early stages of their learning journey. Those who are typically focused on creating user-facing applications.                                  |
+|  2   | Developers at an intermediate stage of learning and experience. They are comfortable in UI/UX, using development tools, and building apps that use API services. |
+|  3   | Developers who have all of the above, and are learning more advanced techniques like implementing backend applications and database services.                    |
 
-## Example projects
+🌟 - New Project
 
-Try not to view this until you've developed your own solution:
+### Tier-1: Beginner Projects
 
-- [Binary to decimal conversion program for beginners](https://www.youtube.com/watch?v=YMIALQE26KQ)
-- [Binary to Decimal converter using React](https://github.com/email2vimalraj/Bin2Dec)
-- [Binary to Decimal converter with plain html, js and css](https://grfreire.github.io/Bin2Dec/)
-- [Binary to Decimal converter using Flutter & Dart](https://github.com/israelss/AppIdeasCollection/tree/master/Tier1/Bin2Dec)
-  - [Live preview built with Flutter for Web](https://bin2dec.web.app/#/)
-- [Binary to Decimal converter using React](https://github.com/geoffctn/Bin2Dec)
-- [Matrix-like Binary to Decimal converter using Angular](https://github.com/ZangiefWins/MatrixBin2Dec)
-  - [Live preview on heroku](https://matrix-bin2dec.herokuapp.com/)
+| Name                                                                     | Short Description                                          | Tier       |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------- | ---------- |
+| [Bin2Dec](./1-Beginner/Bin2Dec/Bin2Dec-App.md)                           | Binary-to-Decimal number converter                         | 1-Beginner |
+| [Border Radius Previewer](./1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | 1-Beginner |
+| [Calculator](./1-Beginner/Calculator-App.md)                             | Calculator                                                 | 1-Beginner |
+| [Christmas Lights](./1-Beginner/Christmas-Lights-App.md)                 | Simulate a string of Christmas lights                      | 1-Beginner |
+| [Cause Effect App](./1-Beginner/Cause-Effect-App.md)                     | Click list item to display item details                    | 1-Beginner |
+| [Color Cycle](./1-Beginner/Color-Cycle-App.md)                           | Cycle a color value through incremental changes            | 1-Beginner |
+| [Countdown Timer](./1-Beginner/Countdown-Timer-App.md)                   | Event Countdown timer                                      | 1-Beginner |
+| [CSV2JSON App](./1-Beginner/CSV2JSON-App.md)                             | CSV to JSON converter                                      | 1-Beginner |
+| [Dollars to Cents](./1-Beginner/Dollars-To-Cents-App.md)                 | Convert dollars to cents                                   | 1-Beginner |
+| [Dynamic CSS Variables](./1-Beginner/Dynamic-CSSVar-app.md)              | Dynamically change CSS variable settings                   | 1-Beginner |
+| [First DB App](./1-Beginner/First-DB-App.md)                             | Your first Database app!                                   | 1-Beginner |
+| [Flip Image](./1-Beginner/Flip-Image-App.md)                             | Change the orientation of images across two axes           | 1-Beginner |
+| [GitHub Status](./1-Beginner/GitHub-Status-App.md)                       | Display Current GitHub Status                              | 1-Beginner |
+| [Hello](./1-Beginner/Hello-App.md)                                       | User native language greeting                              | 1-Beginner |
+| [IOT Mailbox Simulator](./1-Beginner/IOT-Mailbox-App.md)                 | Use callbacks to check your snail mail                     | 1-Beginner |
+| [JS Input Validation](./1-Beginner/Javascript-Validation-With-Regex.md)  | Script to validate inputs entered by a user using RegEx    | 1-Beginner |
+| [JSON2CSV App](./1-Beginner/JSON2CSV-App.md)                             | JSON to CSV converter                                      | 1-Beginner |
+| [Key Value](./1-Beginner/Key-Value-App.md)                               | Keyboard Event Values                                      | 1-Beginner |
+| [Lorem Ipsum Generator](./1-Beginner/Lorem-Ipsum-Generator.md)           | Generate lorem ipsum placeholder text                      | 1-Beginner |
+| [Notes App](./1-Beginner/Notes-App.md)                                   | Create an online note pad                                  | 1-Beginner |
+| [Pearson Regression](./1-Beginner/Pearson-Regression-App.md)             | Calculate the correlation coefficient for two sets of data | 1-Beginner |
+| [Pomodoro Clock](./1-Beginner/Pomodoro-Clock.md)                         | Task timer to aid personal productivity                    | 1-Beginner |
+| [Product Landing Page](./1-Beginner/Product-Landing-Page.md)             | Showcase product details for possible buyers               | 1-Beginner |
+| [Quiz App](./1-Beginner/Quiz-App.md)                                     | Test your knowledge by answering questions                 | 1-Beginner |
+| [Recipe App](./1-Beginner/Recipe-App.md)                                 | Recipe                                                     | 1-Beginner |
+| [Random Meal Generator](./1-Beginner/Random-Meal-Generator.md)           | Generate random meals                                      | 1-Beginner |
+| [Random Number Generator](./1-Beginner/Random-Number-Generator.md)       | Generate random number between range.                      | 1-Beginner |
+| [Roman to Decimal Converter](./1-Beginner/Roman-to-Decimal-Converter.md) | Convert Roman to Decimal numbers                           | 1-Beginner |
+| [Slider Design](./1-Beginner/Slider-Design.md)                           | Display images using a slider control                      | 1-Beginner |
+| [Stopwatch App](./1-Beginner/Stopwatch-App.md)                           | Count time spent on activities                             | 1-Beginner |
+| [TrueOrFalse](./1-Beginner/True-or-False-App.md)                         | Identify the result of a conditional comparison            | 1-Beginner |
+| [Vigenere Cipher](./1-Beginner/Vigenere-Cipher.md)                       | Encrypt text using the Vigenere Cypher                     | 1-Beginner |
+| [Wind Chill](./1-Beginner/Windchill-App.md)                              | Calculate the windchill factor from an actual temperature  | 1-Beginner |
+| [Word Frequency](./1-Beginner/Word-Frequency-App.md)                     | Calculate word frequency in a block of text                | 1-Beginner |
+| [Weather App](./1-Beginner/Weather-App.md)                               | Get the temperature, weather condition of a city.          | 1-Beginner |
+
+### Tier-2: Intermediate Projects
+
+| Name                                                                     | Short Description                                  | Tier           |
+| ------------------------------------------------------------------------ | -------------------------------------------------- | -------------- |
+| [Bit Masks](./2-Intermediate/Bit-Masks-App.md)                           | Using Bit Masks for Conditions                     | 2-Intermediate |
+| [Book Finder App](./2-Intermediate/Book-Finder-App.md)                   | Search for books by multiple criteria              | 2-Intermediate |
+| [Calculator CLI](./2-Intermediate/Calculator-CLI.md)                     | Create a basic calculator cli.                     | 2-Intermediate |
+| [Card Memory Game](./2-Intermediate/Card-Memory-Game.md)                 | Memorize and match hidden images                   | 2-Intermediate |
+| [Charity Finder App](./2-Intermediate/Charity-Finder-App.md)             | Find a Global Charity to donate to                 | 2-Intermediate |
+| [Chrome Theme Extension](./2-Intermediate/Chrome-Theme-Extension.md)     | Build your own chrome theme extention.             | 2-Intermediate |
+| [Currency Converter](./2-Intermediate/Currency-Converter.md)             | Convert one currency to another.                   | 2-Intermediate |
+| [Drawing App](./2-Intermediate/Drawing-App.md)                           | Create digital artwork on the web                  | 2-Intermediate |
+| [Emoji Translator App](./2-Intermediate/Emoji-Translator-App.md)         | Translate sentences into Emoji                     | 2-Intermediate |
+| [Flashcards App](./2-Intermediate/FlashCards-App.md)                     | Review and test your knowledge through Flash Cards | 2-Intermediate |
+| [Flip Art App](./2-Intermediate/Flip-Art-App.md)                         | Animate a set of images                            | 2-Intermediate |
+| [Game Suggestion App](./2-Intermediate/Game-Suggestion-App.md)           | Create polls to decide what games to play          | 2-Intermediate |
+| [GitHub Profiles](./2-Intermediate/GitHub-Profiles.md)                   | A GitHub user search App                           | 2-Intermediate |
+| [HighStriker Game](./2-Intermediate/HighStriker-Game.md)                 | Highstriker strongman carnival game                | 2-Intermediate |
+| [Image Scanner](./2-Intermediate/Image-Scaner.md)                        | Image Scanner App                                  | 2-Intermediate |
+| [Markdown Previewer](./2-Intermediate/Markdown-Previewer.md)             | Preview text formatted in GitHub flavored markdown | 2-Intermediate |
+| [Markdown Table Generator](./2-Intermediate/Markdown-Table-Generator.md) | Convert a table into Markdown-formatted text       | 2-Intermediate |
+| [Math Editor](./2-Intermediate/math-editor.md)                           | A math editor for students to use                  | 2-Intermediate |
+| [Meme Generator App](./2-Intermediate/Meme-Generator-App.md)             | Create custom memes                                | 2-Intermediate |
+| [Name Generation using RNNs](./2-Intermediate/Name-Generator.md)         | Generate names using names dataset                 | 2-Intermediate |
+| [Password Generator](./2-Intermediate/Password-Generator.md)             | Generate random passwords                          | 2-Intermediate |
+| [Podcast Directory](./2-Intermediate/Podcast-Directory-App.md)           | Directory of favorite podcasts                     | 2-Intermediate |
+| [QR Code Badge Generator](./2-Intermediate/QRCode-Badge-App.md)          | Encode badge info in a QRcode                      | 2-Intermediate |
+| [Regular Expression Helper](./2-Intermediate/RegExp-Helper-App.md)       | Test Regular Expressions                           | 2-Intermediate |
+| [Sales Reciepts App](./2-Intermediate/Sales-DB-App.md)                   | Record Sales Receipts in a DB                      | 2-Intermediate |
+| [Simple Online Store](./2-Intermediate/Simple-Online-Store.md)           | Simple Online Store                                | 2-Intermediate |
+| [Sports Bracket Generator](./2-Intermediate/Sports-Bracket-Generator.md) | Generate a sports bracket diagram                  | 2-Intermediate |
+| [String Art](./2-Intermediate/String-Art.md)                             | An animation of moving, colored strings            | 2-Intermediate |
+| [This or That Game](./2-Intermediate/This-or-That-Game.md)               | This or That Game                                  | 2-Intermediate |
+| [Timezone Slackbot](./2-Intermediate/Timezone-Slackbot.md)               | Display Team Timezones                             | 2-Intermediate |
+| [To-Do App](./2-Intermediate/To-Do-App.md)                               | Manage personal to-do tasks                        | 2-Intermediate |
+| [Typing Practice](./2-Intermediate/Typing-Practice-App.md)               | Typing Practice                                    | 2-Intermediate |
+| [Voting App](./2-Intermediate/Voting-App.md)                             | Voting App                                         | 2-Intermediate |
+
+### Tier-3: Advanced Projects
+
+| Name                                                                 | Short Description                                                   | Tier       |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
+| [Battleship Bot](./3-Advanced/Battleship-Bot.md)                     | Create a Discord bot that plays Battleship                          | 3-Advanced |
+| [Battleship Game Engine](./3-Advanced/Battleship-Game-Engine.md)     | Create a callable engine to play the Battleship game                | 3-Advanced |
+| [Boole Bots Game](./3-Advanced/Boole-Bot-Game.md)                    | Battling Bots driven by Boolean algebra                             | 3-Advanced |
+| [Calendar](./1-Beginner/Calendar-App.md)                             | Create your own Calendar                                            | 3-Advanced |
+| [Calorie Counter](./3-Advanced/Calorie-Counter-App.md)               | Calorie Counter Nutrition App                                       | 3-Advanced |
+| [Chat App](./3-Advanced/Chat-App.md)                                 | Real-time chat interface                                            | 3-Advanced |
+| [Contribution Tracker App](./3-Advanced/Contribution-Tracker-App.md) | Track funds donated to charity                                      | 3-Advanced |
+| [Elevator](./3-Advanced/Elevator-App.md)                             | Elevator simulator                                                  | 3-Advanced |
+| [Fast Food Simulator](./3-Advanced/FastFood-App.md)                  | Fast Food Restaurant Simulator                                      | 3-Advanced |
+| [Instagram Clone](./3-Advanced/Instagram-Clone-App.md)               | A clone of Facebook's Instagram app                                 | 3-Advanced |
+| [GitHub Timeline](./3-Advanced/GitHub-Timeline-App.md)               | Generate a timeline of a users GitHub Repos                         | 3-Advanced |
+| [Kudos Slackbot](./3-Advanced/Kudos-Slackbot.md)                     | Give recognition to a deserving peer                                | 3-Advanced |
+| [Movie App](./3-Advanced/Movie-App.md)                               | Browse, Find Ratings, Check Actors and Find you next movie to watch | 3-Advanced |
+| [MyPodcast Library](./3-Advanced/MyPodcast-Library-app.md)           | Create a library of favorite podcasts                               | 3-Advanced |
+| [NASA Exoplanet Query](./3-Advanced/NASA-Exoplanet-Query.md)         | Query NASA's Exoplanet Archive                                      | 3-Advanced |
+| [Shell Game](./3-Advanced/Shell-Game.md)                             | Animated shell game                                                 | 3-Advanced |
+| [Shuffle Deck](./3-Advanced/Shuffle-Deck-App.md)                     | Evaluate different algorithms for shuffling a card deck             | 3-Advanced |
+| [Slack Archiver](./3-Advanced/Slack-Archiver.md)                     | Archive Slack Messages                                              | 3-Advanced |
+| [Spell-It App](./3-Advanced/SpellIt-App.md)                          | A twist on the classic Speak N Spell game                           | 3-Advanced |
+| [Survey App](./3-Advanced/Survey-App.md)                             | Define, conduct, and view a survey                                  | 3-Advanced |
+
+## Plans for the future
+
+We are planning to add more and more projects to this repository. For this, we need your help! Find out how to contribute below. 👇
+
+We are also planning to create a website where you can easily browse through all of the projects.
+
+## Contribution
+
+Any contributions are highly appreciated. :pray: You can contribute in two ways:
+
+1. create an issue and tell us your idea :bulb:. Make sure that you use the **new idea** label in this case;
+2. fork the project and submit a PR with your new idea. Before doing that, please make sure that you read and follow the [Contribution Guide](./CONTRIBUTING.md);
+
+### Examples
+
+You can also add your own examples to the projects after you have completed them. I highly encourage you to do this as it will show others what amazing things were built! 👍
+
+## Spread the word!
+
+If the information from this repo was useful to you in any way, make sure you give it a star 🌟, this way others can find it and benefit too! Together we can grow and make our community better! :smiley:
+
+Do you have any suggestions on how we could improve this project overall? Let us know! We'd love to hear your feedback!
+
+### Main Contributors 🙂🙂
+
+- **Florin Pop**: [Twitter](https://twitter.com/florinpop1705) - [YouTube Channel](https://youtube.com/florinpop) - [website](https://florin-pop.com).
+- **Jim Medlock**: [Twitter](https://twitter.com/jd_medlock) - [articles](https://medium.com/@jdmedlock)
+
+## 100Days100Projects 🚀
+
+As a bonus, I created the [#100Days100Projects challenge](https://www.florin-pop.com/blog/2019/09/100-days-100-projects). You can find in there 100 more ideas of smaller projects. Enjoy! 😄
+
+## Stars history
+
+[![Stargazers over time](https://starchart.cc/florinpop17/app-ideas.svg)](https://starchart.cc/florinpop17/app-ideas)
