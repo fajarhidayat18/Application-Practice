@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  place-content: center;
+  place-self: center;
+}
+.__box_wrapper {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  place-self: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.__box_preview_border_radius {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  padding: 2rem;
+  padding: 1rem;
+}
+.__box_preview {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+}
+.__box_control_and_code_clipboard {
+  display: flex;
+  flex-direction: column;
+  background: var(--background-color);
+  border-radius: 1rem;
+  box-shadow: var(--background-shadow);
+  gap: 2rem;
+  padding: 2rem;
+}
+.__control_radius {
+  display: flex;
+  flex-direction: column;
+}
+.__control_radius form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.__wrapper_input {
+  display: flex;
+  flex-direction: column;
+}
+.__code_clipboard {
+  background: var(--background-color);
+  color: var(--secondary-color);
+}

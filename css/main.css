@@ -1,0 +1,29 @@
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.7rem;
+  width: 100%;
+}
+.card {
+  box-shadow: var(--background-shadow);
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 1.1rem;
+}
+.card a {
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}

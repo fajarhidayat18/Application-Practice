@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border-radius Previewer</title>
+    <link rel="stylesheet" href="../../css/variable.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="__box_wrapper">
+        <div class="__box_preview_border_radius">
+          <div class="__box_preview"></div>
+        </div>
+        <div class="__box_control_and_code_clipboard">
+          <div class="__control_radius">
+            <form>
+              <div class="__wrapper_input">
+                <label for="borderTopLeft">border top left</label>
+                <input type="range" name="border" id="borderTopLeft" />
+              </div>
+              <div class="__wrapper_input">
+                <label for="borderTopRight">border top right</label>
+                <input type="range" name="border" id="borderTopRight" />
+              </div>
+              <div class="__wrapper_input">
+                <label for="borderBottomRight">border bottom right</label>
+                <input type="range" name="border" id="borderBottomRight" />
+              </div>
+              <div class="__wrapper_input">
+                <label for="borderBottomLeft">border bottom left</label>
+                <input type="range" name="border" id="borderBottomLeft" />
+              </div>
+            </form>
+          </div>
+          <div class="__code_clipboard">border-radius:1rem</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
