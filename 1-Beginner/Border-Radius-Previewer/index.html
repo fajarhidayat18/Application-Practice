@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../../css/variable.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="container">
       <div class="__box_wrapper">
@@ -15,29 +14,79 @@
           <div class="__box_preview"></div>
         </div>
         <div class="__box_control_and_code_clipboard">
-          <div class="__control_radius">
-            <form>
+          <form id="formController">
+            <div class="__control_radius">
               <div class="__wrapper_input">
-                <label for="borderTopLeft">border top left</label>
-                <input type="range" name="border" id="borderTopLeft" />
+                <label for="borderTopLeft">size</label>
+                <input type="range" name="size" id="size" min="0" max="350" />
               </div>
               <div class="__wrapper_input">
-                <label for="borderTopRight">border top right</label>
-                <input type="range" name="border" id="borderTopRight" />
+                <label for="borderTopLeft">top left</label>
+                <input
+                  type="range"
+                  name="borderTopLeft"
+                  id="borderTopLeft"
+                  min="0"
+                  max="100"
+                />
               </div>
               <div class="__wrapper_input">
-                <label for="borderBottomRight">border bottom right</label>
-                <input type="range" name="border" id="borderBottomRight" />
+                <label for="borderTopRight">top right</label>
+                <input
+                  type="range"
+                  name="borderTopRight"
+                  id="borderTopRight"
+                  min="0"
+                  max="100"
+                />
               </div>
               <div class="__wrapper_input">
-                <label for="borderBottomLeft">border bottom left</label>
-                <input type="range" name="border" id="borderBottomLeft" />
+                <label for="borderBottomLeft">bottom left</label>
+                <input
+                  type="range"
+                  name="borderBottomLeft"
+                  id="borderBottomLeft"
+                  min="0"
+                  max="100"
+                />
               </div>
-            </form>
+              <div class="__wrapper_input">
+                <label for="borderBottomRight">bottom right</label>
+                <input
+                  type="range"
+                  name="borderBottomRight"
+                  id="borderBottomRight"
+                  min="0"
+                  max="100"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="__code_clipboard">
+            <div class="__code_block">
+              <button class="__copy">Copy</button>
+              <pre>
+                <code>
+      <span  class="token declaration">size</span><span class="token value">: 2rem;</span>
+      <span  class="token declaration">border-top-left-radius</span><span class="token value">: 2rem;</span>
+      <span  class="token declaration">border-top-right-radius</span><span class="token value">: 2rem;</span>
+      <span  class="token declaration">border-bottom-left-radius</span><span class="token value">: 2rem;</span>
+      <span  class="token declaration">border-bottom-right-radius</span><span class="token value">: 2rem;</span>
+                </code>
+              </pre>
+
+              <textarea class="__code_container">
+                size: 2rem;
+                border-top-left-radius: 2rem;
+                border-top-right-radius: 2rem;
+                border-bottom-left-radius: 2rem;
+                border-bottom-right-radius: 2rem;
+              </textarea>
+            </div>
           </div>
-          <div class="__code_clipboard">border-radius:1rem</div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
