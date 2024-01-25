@@ -78,6 +78,8 @@
   position: absolute;
 }
 .__code_clipboard .__copy {
+  cursor: pointer;
+  z-index: 999;
   position: absolute;
   top: 1rem;
   right: 1rem;

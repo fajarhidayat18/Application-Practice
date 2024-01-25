@@ -14,9 +14,9 @@
   --background-inner-shadow: inset 5px 5px 10px #bec3c9,
     inset -5px -5px 10px #ffffff;
 
-  --primary-color: #f7444e;
-  --secondary-color: #78bcc4;
-  --text-color: #002c3e;
+  --primary-color: #0079ff;
+  --secondary-color: #ff0060;
+  --text-color: #071952;
 
   --border-radius: 0.8rem;
 }

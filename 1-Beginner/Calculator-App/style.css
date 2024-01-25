@@ -20,6 +20,7 @@
 }
 .__result_calculator_new_number {
   font-weight: 800;
+  color: var(--primary-color);
 }
 .__result_calculator .__result_calculator_last_number_or_preceding_operation {
   opacity: 0.5;
@@ -38,7 +39,7 @@
 .__button_input {
   background: var(--background-color);
   box-shadow: var(--background-shadow);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 1rem;
   font-weight: 600;
   border: none;
