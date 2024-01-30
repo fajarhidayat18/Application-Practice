@@ -1,0 +1,102 @@
+:root {
+  --globe-width: 1rem;
+  --globe-height: 2rem;
+  --globe-spread: 3px;
+  --light-off-opacity: 0.4;
+
+  --light-color-red: #f87171;
+  --light-color-yellow: #facc15;
+  --light-color-green: #4ade80;
+  --light-color-blue: #38bdf8;
+}
+
+.__row_lights {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  place-content: center;
+  place-items: center;
+  width: 100%;
+  place-self: center;
+  gap: 3rem;
+}
+.__light {
+  text-decoration: none;
+  list-style: none;
+  height: var(--globe-height);
+  width: var(--globe-width);
+  border-radius: 2rem 2rem 500% 500%;
+}
+.__light.active:nth-child(1n + 0) {
+  animation: flash-1 1s ease-in-out infinite alternate;
+}
+.__light.active:nth-child(2n + 0) {
+  animation: flash-2 1s ease-in-out infinite alternate;
+}
+.__light.active:nth-child(3n + 0) {
+  animation: flash-3 1s ease-in-out infinite alternate;
+}
+.__light.active:nth-child(4n + 0) {
+  animation: flash-4 1s ease-in-out infinite alternate;
+}
+.__text {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  transition: all ease-in-out 0.5s;
+}
+.__text.active {
+  text-shadow: 0 0 calc(var(--globe-spread) * 3) var(--text-dark-color);
+}
+#__btn_power {
+  border-radius: 1rem;
+  padding: 8px 16px;
+  background-color: var(--background-dark-color);
+  color: var(--text-dark-color);
+}
+
+@keyframes flash-1 {
+  from {
+    background: transparent;
+    box-shadow: none;
+  }
+  to {
+    background: var(--light-color-blue);
+    box-shadow: 0 calc(var(--globe-height) / 6) calc(var(--globe-width) * 2)
+      var(--globe-spread) var(--light-color-blue);
+  }
+}
+@keyframes flash-2 {
+  from {
+    background: transparent;
+    box-shadow: none;
+  }
+  to {
+    background: var(--light-color-red);
+    box-shadow: 0 calc(var(--globe-height) / 6) calc(var(--globe-width) * 2)
+      var(--globe-spread) var(--light-color-red);
+  }
+}
+@keyframes flash-3 {
+  from {
+    background: transparent;
+    box-shadow: none;
+  }
+  to {
+    background: var(--light-color-green);
+    box-shadow: 0 calc(var(--globe-height) / 6) calc(var(--globe-width) * 2)
+      var(--globe-spread) var(--light-color-green);
+  }
+}
+@keyframes flash-4 {
+  from {
+    background: transparent;
+    box-shadow: none;
+  }
+  to {
+    background: var(--light-color-yellow);
+    box-shadow: 0 calc(var(--globe-height) / 6) calc(var(--globe-width) * 2)
+      var(--globe-spread) var(--light-color-yellow);
+  }
+}

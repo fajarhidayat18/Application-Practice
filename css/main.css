@@ -6,7 +6,6 @@
 .container {
   display: grid;
   place-content: center;
-  grid-template-columns: repeat(4, 1fr);
   gap: 1.7rem;
   width: 100%;
 }
@@ -26,4 +25,32 @@
   gap: 12px;
   display: flex;
   flex-direction: column;
+}
+
+button {
+  border: none;
+  background: var(--background-color);
+  box-shadow: var(--background-shadow);
+}
+button:hover {
+  background: var(--background-hover);
+}
+button:active {
+  background: var(--background-click);
+  box-shadow: var(--background-inner-shadow);
+}
+body[data-theme="dark"] button {
+  border: none;
+  background: var(--background-dark-color);
+  box-shadow: var(--background-dark-shadow);
+}
+body[data-theme="dark"] button:hover {
+  background: var(--background-dark-hover);
+}
+body[data-theme="dark"] button:active {
+  background: var(--background-dark-click);
+}
+
+body[data-theme="dark"] .card {
+  box-shadow: var(--background-dark-shadow);
 }
