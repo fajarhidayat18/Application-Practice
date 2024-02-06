@@ -117,7 +117,7 @@ blockquote {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: inherit;
+  color: var(--text-color);
   text-decoration: none;
 }
 .poppins-thin {

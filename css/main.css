@@ -1,3 +1,4 @@
+@import url(variable.css);
 .image {
   object-fit: cover;
   width: 100%;

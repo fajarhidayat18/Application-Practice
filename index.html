@@ -4,11 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan JavaScript</title>
-    <link rel="stylesheet" href="css/variable.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <nav class="navbar">
+      <a href="https://github.com/fajarhidayat18/Application-Practice">
+        <i data-feather="github"></i>
+      </a>
+    </nav>
+    <section id="Hero" class="container">
+      <h1>📒 App Ideas Collection</h1>
+      <span>inspired by florinpop17/app-ideas repo</span>
+    </section>
+    <section id="Project" class="container">
+      <div class="card">
+        <a href="1-Beginner/Bin2Dec/index.html">
+          <img
+            src="img/screenshhot/1-Beginner-Bin2Dec.png"
+            alt=""
+            srcset=""
+            class="image"
+          />
+          <span>Bin2Dec</span>
+        </a>
+      </div>
+      <div class="card">
+        <a href="1-Beginner/Border-Radius-Previewer/index.html">
+          <img
+            src="img/screenshhot/1-Beginner-Border-Radius-Previewer.png"
+            alt=""
+            srcset=""
+            class="image"
+          />
+          <span>Bin2Dec</span>
+        </a>
+      </div>
       <div class="card">
         <a href="1-Beginner/Calculator-App/index.html">
           <img
@@ -21,9 +55,9 @@
         </a>
       </div>
       <div class="card">
-        <a href="1-Beginner/Bin2Dec/index.html">
+        <a href="1-Beginner/Christmas-Lights-App/index.html">
           <img
-            src="img/screenshhot/1-Beginner-Bin2Dec.png"
+            src="img/screenshhot/1-Beginner-Christmas-Lights-App.png"
             alt=""
             srcset=""
             class="image"
@@ -31,6 +65,10 @@
           <span>Bin2Dec</span>
         </a>
       </div>
-    </div>
+    </section>
+
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>

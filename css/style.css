@@ -1,0 +1,41 @@
+.container {
+  grid-template-columns: repeat(4, 1fr);
+  align-items: stretch;
+}
+.image {
+  object-fit: contain;
+  height: 15rem;
+  width: 15rem;
+}
+#Hero {
+  height: 50vh;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+#Hero h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+  padding: 1rem 1.3rem;
+}
+.navbar a {
+  display: flex;
+  justify-content: end;
+  border: 2px solid black;
+  border-radius: 9999px;
+  padding: 6px;
+  transition: all 250ms;
+}
+.navbar a:hover {
+  display: flex;
+  justify-content: end;
+  border: 2px solid black;
+  border-radius: 9999px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+}
